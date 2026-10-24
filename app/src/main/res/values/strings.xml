@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ScienceLab</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_signup">Sign Up</string>
+    <string name="action_search">Search</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_biology">Biology</string>
+    <string name="nav_chemistry">Chemistry</string>
+    <string name="nav_physics">Physics</string>
+    <string name="nav_anatomy">Anatomy</string>
+    <string name="nav_genetics">Genetics</string>
+    <string name="nav_biotechnology">Biotechnology</string>
+    <string name="nav_lab_safety">Lab Safety</string>
+    <string name.nav_settings">Settings</string>
+    <string name="daily_science_fact">Daily Science Fact</string>
+    <string="daily_learning_goal">Daily Learning Goal</string>

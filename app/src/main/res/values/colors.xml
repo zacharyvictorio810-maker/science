@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Color palette for ScienceLab — modern scientific interface -->
+    <color name="colorPrimary">#2563EB</color>
+    <color name="colorPrimaryVariant">#1E40AF</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+
+    <color name="colorSecondary">#14B8A6</color>
+    <color name="colorSecondaryVariant">#0D9488</color>
+    <color name="colorOnSecondary">#FFFFFF</color>
+
+    <color name="colorBackgroundLight">#F8FAFC</color>
+    <color name="colorBackgroundDark">#0F172A</color>
+
+    <color name="colorSurfaceLight">#FFFFFF</color>
+    <color name="colorSurfaceDark">#1E293B</color>
+
+    <color name="colorError">#EF4444</color>
+    <color name="colorWarning">#F59E0B</color>
+    <color name="colorSuccess">#22C55E</color>
+
+    <!-- Scientific accent colors -->
+    <color name="colorCyan">#22D3EE</color>
+    <color name="colorTeal">#14B8A6</color>
+
+    <!-- Text colors -->
+    <color name="colorOnBackgroundLight">#0F172A</color>
+    <color name="colorOnBackgroundDark">#F8FAFC</color>
+
+</resources>

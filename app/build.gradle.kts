@@ -1,0 +1,54 @@
+plugins {
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+}
+
+android {
+    compileSdk = 34
+    defaultConfig {
+        applicationId = "com.sciencelab.sciencelab"
+        minSdk = 24
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0"
+    }
+
+    buildFeatures {
+        compose true
+    }
+
+    composeOptions {
+        kotlinCompilerExtensionVersion = "1.5.0"
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
+dependencies {
+    implementation("androidx.core:core-ktx:1.13.0")
+    implementation("androidx.lifecycle.lifecycle-runtime-ktx:2.6.1")
+    implementation("androidx.activity activity-ktx:1.8.0")
+    implementation("androidx.compose.material3:material3:1.2.0")
+    implementation("androidx.compose.ui:ui:1.2.0")
+    implementation("androidx.compose.ui:ui-graphics:1.2.0")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.2.0")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
+    implementation("androidx.room:room-ktx:2.4.0")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-moshi:2.9.0")
+    // Navigation
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+    // DataStore preferences
+    implementation("androidx.datastore:datastore-preferences:1.0.0")
+    // Moshi for JSON (retrofit converter)
+    implementation("com.squareup.moshi:moshi:1.14.0")
+    implementation("com.squareup.moshi:moshi-kotlin:1.14.0")
+    implementation("com.squareup.moshi:moshi-adapters:1.14.0")
+    // AndroidX test
+    testImplementation("junit:junit:4.13.2")
+    androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.2.0")
+    // Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+}
