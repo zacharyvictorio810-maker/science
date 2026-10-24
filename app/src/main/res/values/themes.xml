@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base theme -->
+    <style name="Theme.ScienceLab" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Light mode colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorBackground">@color/colorBackgroundLight</item>
+        <item name="colorSurface">@color/colorSurfaceLight</item>
+        <item name="colorOnBackground">@color/colorOnBackgroundLight</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="colorWarning">@color/colorWarning</item>
+        <item name="colorSuccess">@color/colorSuccess</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Toolbar -->
+        <item name="toolbarStyle">@style/Widget.ScienceLab.Toolbar</item>
+
+        <!-- Material 3 -->
+        <item name="materialCardViewStyle">@style/Widget.ScienceLab.CardView</item>
+    </style>
+
+    <!-- Toolbar style -->
+    <style name="Widget.ScienceLab.Toolbar" parent="Widget.MaterialToolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.ScienceLab.Toolbar.Title</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.ScienceLab.Toolbar.Subtitle</item>
+    </style>
+
+    <style name="TextAppearance.ScienceLab.Toolbar.Title" parent="TextAppearance.MaterialHeadline6">
+        <item name="android:textColor">@color/colorOnPrimary</item>
+    </style>
+
+    <style name="TextAppearance.ScienceLab.Toolbar.Subtitle" parent="TextAppearance.MaterialBody2">
+        <item name="android:textColor">@color/colorOnPrimary</item>
+    </style>
+
+    <!-- CardView style -->
+    <style name="Widget.ScienceLab.CardView" parent="Widget.Material3.CardView">
+        <item name="cardCornerRadius">8dp</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <!-- Dark mode colors -->
+    <style name="Theme.ScienceLab.Dark" parent="Theme.ScienceLab">
+        <item name="colorBackground">@color/colorBackgroundDark</item>
+        <item name="colorSurface">@color/colorSurfaceDark</item>
+        <item name="colorOnBackground">@color/colorOnBackgroundDark</item>
+    </style>
+
+</resources>
